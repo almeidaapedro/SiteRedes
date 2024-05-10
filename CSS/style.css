@@ -36,6 +36,11 @@ header a{
     transition: .2s;
 }
 
+header nav.menu a{
+    font-size: 20px;
+    color: #000;
+}
+
 header nav.menu a:hover{
     transform: scale(1.05);
 }
@@ -47,6 +52,19 @@ header nav ul{
 header nav.menu ul li{
     display: inline-block;
     padding: 0 40px;
+}
+
+.btn-contato button{
+    padding: 7px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: aqua;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.btn-contato button:hover{
+    transform: scale(1.05);
 }
 
 /* Estilo do topo do site*/
@@ -103,3 +121,38 @@ section.sobre .flex{
     font-size: 22px;
 }
 
+/* Estilo dos Serviços */
+section.servicos{
+    padding: 30px 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.servicos h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+section.servicos .flex{
+    gap: 60px;
+}
+
+.servicos .serv-box{
+    padding: 30px;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin-top: 45px;
+    box-shadow: 0 0 20px;
+    transition: .2s;
+}
+
+.serv-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgb(6, 10, 10);
+}
+
+footer{
+    padding: 30px 4%;
+    text-align: center;
+}
