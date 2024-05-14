@@ -55,12 +55,13 @@ header nav.menu ul li{
 }
 
 .btn-contato button{
-    padding: 7px;
+    padding: 10px;
     font-size: 20px;
     border-radius: 20px;
     background-color: aqua;
     transition: .2s;
     cursor: pointer;
+    font-weight: 600;
 }
 
 .btn-contato button:hover{
@@ -152,7 +153,79 @@ section.servicos .flex{
     box-shadow: 0 0 20px rgb(6, 10, 10);
 }
 
+/* Estilo do Formulário */
+.formulario{
+    padding: 40px 4%;
+    align-items: center;
+    margin-top: 5%;
+}
+
+h4{
+    text-align: center;
+    font-size: 40px;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 10px;
+    margin-top: 40px;
+}
+
+form input, form textarea{
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 22px;
+
+    border-radius: 20px;
+}
+button.botao{
+    padding: 20px 4%;
+    margin-top: 0.5px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+
+    background-color: aqua;
+    border-radius: 20px;
+
+    font-size: 20px;
+    font-weight: 600;
+}
+
 footer{
     padding: 30px 4%;
     text-align: center;
+    box-shadow: 0 0 40px 10px #ffffff44;
+}
+
+.redes-sociais{
+    padding: 10px;
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button i{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: 1.2s;
+
 }
