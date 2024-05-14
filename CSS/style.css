@@ -24,6 +24,10 @@ header{
     padding: 40px 4%;
 }
 
+h1{
+    text-align: center;
+}
+
 header > .interface{
     display: flex;
     align-items: center;
@@ -186,7 +190,14 @@ form input, form textarea{
     margin-bottom: 22px;
 
     border-radius: 20px;
+    outline: 0;
 }
+
+form textarea{
+    resize: none; 
+    max-height: 400px;
+}
+
 button.botao{
     padding: 20px 4%;
     margin-top: 0.5px;
@@ -201,31 +212,42 @@ button.botao{
 
     font-size: 20px;
     font-weight: 600;
+
+    cursor: pointer;
+    transition: .2s;
+}
+
+button.botao:hover{
+    transform: scale(1.05);
 }
 
 footer{
-    padding: 30px 4%;
-    text-align: center;
-    box-shadow: 0 0 40px 10px #ffffff44;
-}
-
-.redes-sociais{
-    padding: 10px;
-    margin-top: 10px;
+    padding: 50px 4%;
+    align-items: center;
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    margin-bottom: 22px;
 }
 
-button i{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    border: none;
-    font-size: 22px;
-    cursor: pointer;
-    margin: 0 5px;
-    transition: 1.2s;
 
+.redes-sociais{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+h5{
+    padding-bottom: 20px;
+    font-size: 23px;
+}
+
+i{
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 30px;
+
+    color: aqua;
 }
