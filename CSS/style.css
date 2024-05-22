@@ -75,7 +75,8 @@ header nav.menu ul li{
 /* Estilo do topo do site*/
 section.topo-do-site{
     line-height: 40px;
-    padding: 70px 4%;
+    padding: 85px 4%;
+    gap: 60px;
 }
 
 .topo-do-site .txt-topo-site h1{
@@ -93,6 +94,23 @@ h7{
 .topo-do-site .txt-topo-site p{
     font-size: 22px;
     margin: 40px 0;
+}
+
+.topo-do-site .txt-topo-site button{
+    padding: 10px 4%;
+
+    background-color: aqua;
+    border-radius: 15px;
+
+    font-family: "Merriweather", serif;
+    font-weight: 600;
+    
+    cursor: pointer;
+    transition: .2s;
+}
+
+.topo-do-site .txt-topo-site button:hover{
+    transform: scale(1.05);
 }
 
 .topo-do-site .img-topo-site img{
