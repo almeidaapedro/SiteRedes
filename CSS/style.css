@@ -137,6 +137,10 @@ section.sobre .flex{
     gap: 90px;
 }
 
+.sobre img{
+    border-radius: 50px;
+}
+
 .sobre .interface h2 span{
     font-size: 36px;
     text-align: center;
