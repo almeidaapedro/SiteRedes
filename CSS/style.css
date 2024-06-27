@@ -222,10 +222,9 @@ h4{
 }
 
 .integrantes{
-    padding: 15px 10%;
+    padding: 20px 10%;
     margin-top: 40px;
     align-items: center;
-    gap: 60px;
     display: flex;
     text-align: center;
 
