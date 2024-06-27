@@ -177,6 +177,10 @@ h6{
     text-align: center;
     font-family: "Merriweather", serif;
     font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 40px;
+    display: block;
 }
 
 section.servicos .flex{
@@ -184,7 +188,9 @@ section.servicos .flex{
 }
 
 .servicos .serv-box{
-    padding: 30px;
+    padding: 37px;
+    text-align: justify;
+    line-height: 23px;
     border: 2px solid white;
     border-radius: 15px;
     margin-top: 45px;
@@ -197,70 +203,50 @@ section.servicos .flex{
     box-shadow: 0 0 20px rgb(6, 10, 10);
 }
 
-/* Estilo do Formulário */
-.formulario{
-    padding: 40px 4%;
-    align-items: center;
-    margin-top: 5%;
+.serv-box p{
+    font-size: 18px;
+}
+
+/* Estilo da div do nosso time */
+section.time{
+    padding: 30px 4%;
+    margin-top: 10%;
+    justify-content: space-between;
 }
 
 h4{
-    text-align: center;
     font-size: 40px;
     font-family: "Merriweather", serif;
     font-weight: 600;
+    text-align: center;
 }
 
-form{
-    max-width: 500px;
-    margin: 0 auto;
-
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-
-    gap: 10px;
+.integrantes{
+    padding: 15px 10%;
     margin-top: 40px;
-}
-
-form input, form textarea{
-    padding: 15px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 22px;
-
-    border-radius: 20px;
-    outline: 0;
-}
-
-form textarea{
-    resize: none; 
-    max-height: 400px;
-}
-
-button.botao{
-    padding: 20px 4%;
-    margin-top: 0.5px;
-
-    display: flex;
-    flex-direction: row;
     align-items: center;
-    margin: 0 auto;
+    gap: 60px;
+    display: flex;
+    text-align: center;
 
-    background-color: aqua;
-    border-radius: 20px;
-
-    font-size: 20px;
-    font-weight: 600;
-
-    cursor: pointer;
-    transition: .2s;
+    font-family: "Merriweather", serif;
+    line-height: 25px;
 }
 
-button.botao:hover{
-    transform: scale(1.05);
+.integrantes p.nome{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.integrantes img{
+    border: 2px solid #000;
+    border-radius: 100px;
+}
+
+.integrantes i{
+    padding: 5px 1%;
+    color: #000;
+    font-size: 20px;
 }
 
 footer{
@@ -273,13 +259,6 @@ footer{
     flex-direction: column;
     justify-content: center;
     margin-bottom: 22px;
-}
-
-
-.redes-sociais{
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
 }
 
 h5{
