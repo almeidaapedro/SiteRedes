@@ -262,11 +262,11 @@ footer{
 }
 
 h5{
-    padding-bottom: 20px;
     font-size: 23px;
     color: #fff;
     font-family: "Merriweather", serif;
     font-weight: 600;
+    text-align: center;
 }
 
 i{
