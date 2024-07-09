@@ -220,7 +220,7 @@ section.sobre .flex{
 
 .sobre .txt-sobre p{
     margin: 20px 0;
-    text-align: justify;
+    text-align: left;
     font-size: 22px;
 }
 
@@ -256,7 +256,7 @@ section.servicos .flex{
 
 .servicos .serv-box{
     padding: 37px;
-    text-align: justify;
+    text-align: center;
     line-height: 23px;
     border: 2px solid white;
     border-radius: 15px;
@@ -364,8 +364,6 @@ i{
 }
 
 @media only screen and (max-width: 768px) {
-    /* Estilos para telas menores (como celulares) */
-
     .interface {
         padding: 0 10px;
     }
@@ -430,8 +428,12 @@ i{
     }
 
     .servicos .serv-box {
-        flex: 0 0 calc(100% - 40px);
         padding: 20px;
     }
 
+    .servicos .serv-box p{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 15px;
+        margin: auto;
+    }
 }
