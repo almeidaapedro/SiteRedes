@@ -321,7 +321,7 @@ h4{
     .integrantes div {
         align-items: center;
         justify-content: center;
-        margin-left: 40px;
+        margin:auto
     }
 
     .integrantes div i{
